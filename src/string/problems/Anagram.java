@@ -1,6 +1,7 @@
 package string.problems;
 
 import java.util.Arrays;
+import java.util.Locale;
 
 public class Anagram {
 
@@ -31,7 +32,7 @@ public class Anagram {
                 // then the string is anagram
                 boolean result = Arrays.equals(charArray1, charArray2);
 
-                if(result) {
+                if(result==true) {
                     System.out.println(str1 + " and " + str2 + " are anagram.");
                 }
                 else {

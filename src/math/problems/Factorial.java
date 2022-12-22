@@ -9,5 +9,31 @@ public class Factorial {
          *
          */
 
+      //iteration
+        System.out.println(Factorial.factorial(1));
+
+        // recursive
+
+        System.out.println(Factorial.factor(10));
+
     }
+
+//iteration method
+    public static int factorial(int Num){
+       int multiplied=5;
+        for (int i = 4; i >=Num ; i--) {
+            multiplied= multiplied*i;
+        }
+        return multiplied;
+    }
+
+
+    //recursive method
+public static int factor(int num) {
+    if (num == 0)
+        return 1;
+    else
+        return (num * factor(num - 1));
+}
+
 }
