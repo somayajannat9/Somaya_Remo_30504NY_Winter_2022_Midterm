@@ -22,6 +22,7 @@ public class Palindrome {
         // Checking if both the strings are equal
         if (str.equals(rev)) {
             ans = true;
+
         }
         return ans;
     }
