@@ -6,12 +6,12 @@ public class UnitTestingMath {
 
         Factorial factObj= new Factorial();
         int factorialNum= 5;
-        int result= (factObj.factorial(1));
+        int result= (Factorial.factorial(1));
         System.out.println(result);
 
 
         int factorialNum2= 10;
-        int result2= factObj.factor(10);
+        int result2= Factorial.factor(10);
         System.out.println(result2);
 
 

@@ -5,12 +5,13 @@ import java.util.Locale;
 
 public class Anagram {
 
+
+
     public static void main(String[] args) {
         //Write a Java Program to check if the two String are Anagram. Two String are called Anagram when there is
         //same character but in different order.For example,"CAT" and "ACT", "ARMY" and "MARY".
 
-
-            String str1 = "Heart";
+          //  String str1 = "Heart";
             String str2 = "Earth";
 
             // Set both strings to lower case because their letters will switch.
@@ -32,7 +33,7 @@ public class Anagram {
                 // then the string is anagram
                 boolean result = Arrays.equals(charArray1, charArray2);
 
-                if(result==true) {
+                if(result) {
                     System.out.println(str1 + " and " + str2 + " are anagram.");
                 }
                 else {

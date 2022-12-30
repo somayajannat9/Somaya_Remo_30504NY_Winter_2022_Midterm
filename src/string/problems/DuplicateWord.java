@@ -17,7 +17,7 @@ public class DuplicateWord {
         string = string.toLowerCase();
 
         //Split the string into words using built-in function
-        String words[] = string.split(" ");
+        String[] words = string.split(" ");
 
         System.out.println("Duplicate words in a given string : ");
         for (int i = 0; i < words.length; i++) {

@@ -25,7 +25,7 @@ public class Permutation {
         permutation("", input);
     }
 
-    private static SortedSet set = new TreeSet();
+    private static final SortedSet set = new TreeSet();
 
     private static void permutation(String perm, String word) {
 
@@ -34,7 +34,7 @@ public class Permutation {
             set.add(setString);
         } else {
             for (int i = 0; i < word.length(); i++) {
-                permutation(perm + word.charAt(i), word.substring(0, i) + word.substring(i + 1, word.length()));
+                permutation(perm + word.charAt(i), word.substring(0, i) + word.substring(i + 1));
             }
         }
     }

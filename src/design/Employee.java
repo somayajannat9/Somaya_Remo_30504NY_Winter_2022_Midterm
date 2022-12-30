@@ -9,18 +9,18 @@ public interface Employee {
 	//and then implement these in a concrete class.
 	
 	//employeeId() will return employee id.
-	public int employeeId();
+    int employeeId();
 	
 	//employeeName() will return employee name
-	public String employeeName();
+    String employeeName();
 	
 	//assignDepartment() will assign employee to departments
-    public void assignDepartment();
+    void assignDepartment();
 	
 	//calculate employee salary
-	public int calculateSalary();
+    int calculateSalary();
 	
 	//employee benefit
-	public void benefitLayout();
+    void benefitLayout();
 
 }
