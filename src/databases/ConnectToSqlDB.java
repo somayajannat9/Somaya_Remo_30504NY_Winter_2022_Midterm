@@ -194,4 +194,7 @@ public class ConnectToSqlDB {
 
 
     }
+
+    public void createSqlTableForStringArray(String selfDrivingCar, String words) {
+    }
 }

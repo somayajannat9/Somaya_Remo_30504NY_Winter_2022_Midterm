@@ -39,6 +39,15 @@ public class Numbers {
 
 		//By following above, Continue for rest of the Sorting Algorithm....
 
+		//merge sort
+		randomize (num, n);
+		algo.mergeSort(num,0,num.length-1,num.length);
+		long mergeSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Merge Sort take: " + mergeSortExecutionTime + " milli sec");
+		connectToSqlDB.insertDataFromArrayToSqlTable(num, "merge_sort", "SortingNumbers");
+		List<String> numbers3 = connectToSqlDB.readDataBase("merge_sort", "SortingNumbers");
+		printValue(numbers3);
+
 
 
 

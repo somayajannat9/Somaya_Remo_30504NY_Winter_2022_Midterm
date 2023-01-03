@@ -54,7 +54,7 @@ public class Sort {
     }
     
 
-    public int [] mergeSort(int [] array){
+    public int [] mergeSort(int [] array, int i, int i1, int length){
         int [] list = array;
         //implement here
         
