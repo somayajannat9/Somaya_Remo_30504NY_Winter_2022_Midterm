@@ -35,7 +35,7 @@ public class UseQueue {
 
 			boroughs.remove();
 		}
-		
+
 		System.out.println(boroughs);
 
 	}
